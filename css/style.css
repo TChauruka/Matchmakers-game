@@ -33,6 +33,10 @@ h1 {
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
+h2{
+	text-align: center;
+}
+
 /* background animation*/
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
