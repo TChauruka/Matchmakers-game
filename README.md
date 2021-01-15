@@ -82,7 +82,7 @@ The colour animation was put to relax the user and are pleasing  to the see.
 
 ## Testing
 
-Testing details can be found in separate testing.md [file](tchauruka/Matchmakers-game/blob/master/testing.md)
+Testing details can be found in separate testing.md [file](https://github.com/TChauruka/Matchmakers-game/blob/main/testing.md)
 
 ## Deployment
 
