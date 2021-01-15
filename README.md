@@ -1,6 +1,6 @@
 # Memory Game
 
-![Match Me](https://github.com/TChauruka/Matchmakers-game/tree/main/images/Screenshot.jpg)
+![Match Me](https://github.com/TChauruka/Matchmakers-game/blob/main/images/Screenshot.jpg)
 
 A Memory game that bring both colour and function
 
@@ -41,7 +41,7 @@ Matchmaker game is training player's memory and exercising player's brain. Game 
 
 #### Colour scheme
 
-![Colour palette](https://github.com/TChauruka/Matchmakers-game/tree/main/images/pallet.jpg)
+![Colour palette](https://github.com/TChauruka/Matchmakers-game/blob/main/images/pallet.jpg)
 
 Colours that were picked had to match the theme of this game.
 
