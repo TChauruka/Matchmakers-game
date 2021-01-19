@@ -40,8 +40,10 @@ const threeStarRatingUpperLimit = 12;
 const noStarRatingLowerLimit = 13;
 
 
-//shuffledarray
-// This was referenced from <https://bost.ocks.org/mike/shuffle/>
+/*
+shuffledarray
+This was referenced from <https://bost.ocks.org/mike/shuffle/>
+*/
 function shuffle(array) {
     var currentIndex = array.length,
         temporaryValue, randomIndex;
@@ -57,7 +59,9 @@ function shuffle(array) {
     return array;
 };
 
-//function to start a new play
+/*
+function to start a new play
+*/
 function startGame() {
 
     // empty the openCards array
@@ -115,7 +119,9 @@ function cardOpen() {
 };
 
 
-// when cards match
+/*
+when cards match
+*/
 function matchedCards() {
     openedCards[0].classList.add("match", "disabled");
     openedCards[1].classList.add("match", "disabled");
@@ -125,7 +131,9 @@ function matchedCards() {
 }
 
 
-//  when cards don't match
+/*
+when cards don't match
+*/
 function unmatchedCards() {
     openedCards[0].classList.add("unmatched");
     openedCards[1].classList.add("unmatched");
@@ -139,7 +147,9 @@ function unmatchedCards() {
 }
 
 
-// disable cards temporarily
+/*
+disable cards temporarily
+*/
 function disableCard() {
     Array.prototype.filter.call(cards, function (card) {
         card.classList.add('disabled');
@@ -147,7 +157,9 @@ function disableCard() {
 }
 
 
-//  enable cards and disable matched cards
+/*
+enable cards and disable matched cards
+*/
 function enableCard() {
     Array.prototype.filter.call(cards, function (card) {
         card.classList.remove('disabled');
@@ -191,6 +203,9 @@ function handleStarRating() {
     }
 }
 
+/*
+The timer
+*/
 
 function startTimer() {
     interval = setInterval(function () {
@@ -208,7 +223,9 @@ function startTimer() {
 }
 
 
-//congratulations when all cards match, show modal and moves, time and rating
+/*
+congratulations when all cards match, show modal and moves, time and rating
+*/
 function matchWonHandler() {
     if (matchedCard.length == 16) {
         clearInterval(interval);
@@ -231,7 +248,9 @@ function matchWonHandler() {
 }
 
 
-// close icon on modal
+/*
+close icon on modal
+*/
 function closeModal() {
     closeicon.addEventListener("click", function (e) {
         modal.classList.remove("show");
@@ -240,7 +259,9 @@ function closeModal() {
 }
 
 
-//for user to play Again
+/*
+close for user to play Again
+*/
 function playAgain() {
     modal.classList.remove("show");
     startGame();
@@ -254,5 +275,5 @@ for (var i = 0; i < cards.length; i++) {
     card.addEventListener("click", matchWonHandler);
 };
 
-//shuffles cards when page is refreshed / loads
+//shuffles cards when page is refreshed loads
 document.body.onload = startGame();
