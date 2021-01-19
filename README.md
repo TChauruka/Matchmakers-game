@@ -1,6 +1,9 @@
 # Memory Game
 
+[View the live project here.](https://tchauruka.github.io/Matchmakers-game/)
+
 ![Match Me](https://github.com/TChauruka/Matchmakers-game/blob/main/images/Screenshot.jpg)
+![Game play](https://github.com/TChauruka/Matchmakers-game/blob/main/images/gameplay.jpg)
 
 A Memory game that bring both colour and function
 
@@ -120,9 +123,18 @@ The content of this page was written by me however following people & their work
 
 - [Mike Bostock](https://bost.ocks.org/mike/) - mechanics of shuffling an array and Fisher–Yates Shuffle
 - [coolors](https://coolors.co/palettes/)- for the colour pallet
+- [CSS animation background ](https://freefrontend.com/css-animated-backgrounds/)
 
 
-I have also used following for reacherching:
+I have also used following for researching:
 
 - [Stack overflow](https://stackoverflow.com/)
 - [W3Schools](https://www.w3schools.com/)
+
+##Commit Messages Correction
+
+|Commit ID | Commit Message|
+|---|---|
+| 630c9652fc8b51fe35789d52079758409cba865d | Testing the code to see if it works and it should be and to see if it there is any error in the code.|
+| de2c50ae938e8c1c5e2c498767c9611049c21528 | added pallet image to show the colours used in the website |
+| f4c4f820e1ea2c91867ecfebd703c77abcb3db5f | screenshot for the website which shows how the website looks like |
