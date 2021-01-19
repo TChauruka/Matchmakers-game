@@ -131,7 +131,7 @@ I have also used following for researching:
 - [Stack overflow](https://stackoverflow.com/)
 - [W3Schools](https://www.w3schools.com/)
 
-##Commit Messages Correction
+Commit Messages Correction
 
 |Commit ID | Commit Message|
 |---|---|
