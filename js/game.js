@@ -116,7 +116,7 @@ function cardOpen() {
             unmatchedCards();
         }
     }
-};
+}
 
 
 /*
@@ -244,7 +244,7 @@ function matchWonHandler() {
 
         //closeicon on modal
         closeModal();
-    };
+    }
 }
 
 
@@ -273,7 +273,7 @@ for (var i = 0; i < cards.length; i++) {
     card.addEventListener("click", displayCard);
     card.addEventListener("click", cardOpen);
     card.addEventListener("click", matchWonHandler);
-};
+}
 
 //shuffles cards when page is refreshed loads
 document.body.onload = startGame();
