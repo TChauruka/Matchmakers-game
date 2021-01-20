@@ -58,16 +58,18 @@ Following online validators were used to test the code:
 
 - [W3C Mark-up Validation Service](https://validator.w3.org/) for HTML validation
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) for CSS validation
-- [JS Hint](https://jshint.com/) for JavaScript validation
-
+- [JS Hint](https://esprima.org/) for JavaScript validation
 ### HTML validation
 
-few error found but did not affect how the code run.
+| Error message | Action taken|
+|-----|-----|
+| Bad value https://fonts.googleapis.com/css?family=Gloria+HallelujahPermanent+Marker | No action taken as link was taken from Google. |
+| Section lacks heading. Consider using h2-h6 elements | no action taken as no h2-h6 required for the part of the code. |
+| The type attribute on the li element is obsolete. | no action taken as the card class is used in the CSS file. |
 
 ### CSS validation
 
 No errors found.
 
 ### JavaScript validation
-
-few error found but did not affect how the code run.
+No errors found.
