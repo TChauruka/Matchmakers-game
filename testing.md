@@ -58,7 +58,7 @@ Following online validators were used to test the code:
 
 - [W3C Mark-up Validation Service](https://validator.w3.org/) for HTML validation
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) for CSS validation
-- [JS Hint](https://esprima.org/) for JavaScript validation
+- [Esprima](https://esprima.org/) for JavaScript validation
 ### HTML validation
 
 | Error message | Action taken|
