@@ -124,6 +124,7 @@ The content of this page was written by me however following people & their work
 - [Mike Bostock](https://bost.ocks.org/mike/) - mechanics of shuffling an array and Fisher–Yates Shuffle
 - [coolors](https://coolors.co/palettes/)- for the colour pallet
 - [CSS animation background ](https://freefrontend.com/css-animated-backgrounds/)
+- [browser icon image](https://icon-icons.com/icon/brain/109577)
 
 
 I have also used following for researching:
